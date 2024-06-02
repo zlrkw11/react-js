@@ -1,0 +1,1 @@
+index file should have minimum code. everything is controlled by react ui
