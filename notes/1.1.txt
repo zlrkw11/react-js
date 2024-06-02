@@ -3,3 +3,12 @@ app.js controls the components
 app.css controls styling
 index.css controls styling for body tag
 
+root(App) wraps every component
+
+component code is inside a js /jsx file.
+> stateless functional components
+    function
+> stateful class components
+    contains render method
+    using lib
+
