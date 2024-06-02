@@ -12,3 +12,5 @@ in the App file:
 
 convention:
 writing using arrow functions
+
+const NAME = () => COMPONENT

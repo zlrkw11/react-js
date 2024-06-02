@@ -4,5 +4,5 @@ import React from 'react'
 //    return <h1>Hello ZL</h1>
 //}
 
-const Greet = () => <h1>Hello ZL</h1>
+const Greet = () => <h1>Hello ZL</h1> // ES6 function syntax
 export default Greet
