@@ -1,0 +1,14 @@
+props -> function -> HTML (JSX)
+
+accepts properties, returns HTMl as an UI component.
+
+1. (ALWAYS)import React from 'react'
+2. return a component
+3. export the component
+
+in the App file:
+1. import the component
+2. display it as a HTML tag with the name
+
+convention:
+writing using arrow functions
