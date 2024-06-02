@@ -1,1 +1,5 @@
 index file should have minimum code. everything is controlled by react ui
+app.js controls the components
+app.css controls styling
+index.css controls styling for body tag
+
