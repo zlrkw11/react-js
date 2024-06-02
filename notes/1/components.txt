@@ -34,3 +34,18 @@ props -> ES6 class -> HTML (JSX)
     > render method returns some HTML
 3. export the component 
 4. import and use
+
+Summary:
+Functional
+> Always go for functional approach if possible
+> Absence of 'this' keyword
+> Without state mostly
+> Mainly responsible for UI
+> Stateless
+
+Class
+> More feature
+> Maintain their private data
+> Complex UI logic
+> Provide lifecycle hooks
+> Stateful 
