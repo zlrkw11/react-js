@@ -4,3 +4,6 @@ extension for XML code for elements and components
 
 transpils to pure JS which is understood by browsers
 
+if no jsx:
+                            tag optional props children
+return React.createElement('div', null, 'Hello Ray')
