@@ -1,0 +1,6 @@
+extension for XML code for elements and components
+> tag name
+> attributes and children
+
+transpils to pure JS which is understood by browsers
+
