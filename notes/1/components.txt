@@ -21,3 +21,5 @@ name to anything.
 
 if used export in 1 go in the function, 
 it will be NAMED, the names must be the same.
+
+for most cases, use default exports.
