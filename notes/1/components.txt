@@ -1,3 +1,4 @@
+Functional Component
 props -> function -> HTML (JSX)
 
 accepts properties, returns HTMl as an UI component.
@@ -23,3 +24,13 @@ if used export in 1 go in the function,
 it will be NAMED, the names must be the same AND in {curly braces}.
 
 for most cases, use default exports.
+
+Class Component
+ES6 
+props -> ES6 class -> HTML (JSX)
+1. 2 imports, React & Component class from 'react'
+2. turn the Class into a component:
+    > extends Component
+    > render method returns some HTML
+3. export the component 
+4. import and use
