@@ -14,3 +14,10 @@ convention:
 writing using arrow functions
 
 const NAME = () => COMPONENT
+
+note:
+the default export allows us to customize the component
+name to anything.
+
+if used export in 1 go in the function, 
+it will be NAMED, the names must be the same.
