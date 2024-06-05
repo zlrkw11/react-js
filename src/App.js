@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Greet name="1"/>
-        <Greet name="2"/>
-        <Greet name="3"/>
+        <Greet number="1" name="ray"/>
+        <Greet number="2" name="nate"/>
+        <Greet number="3" name="andy"/>
       </header>
     </div>
   );

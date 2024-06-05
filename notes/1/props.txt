@@ -4,4 +4,12 @@ const Greet = props => {
     ...
 }
 
+to display a property:
+{props.name}
+
+-> props.name is what <HTML name:""> tag has.
+
+the content in between the opening
+and closing brackets </> will be the {children} prop.
+
 
