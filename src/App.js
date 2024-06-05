@@ -9,7 +9,9 @@ function App() {
         <Greet number="1" name="ray">
           <p>This is children props</p>
         </Greet>
-        <Greet number="2" name="nate"/>
+        <Greet number="2" name="nate">
+          <button>button</button>
+        </Greet>
         <Greet number="3" name="andy"/>
       </header>
     </div>
