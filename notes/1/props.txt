@@ -15,4 +15,8 @@ and closing brackets </> will be the {children} prop.
 App.js -> displayer
 Component.js -> template
 
-Class components can have this.props.xxx
+Class components can have this.props.xxx inside a component
+
+strict rule:
+values immutable, cannot be changed.
+
