@@ -12,4 +12,7 @@ to display a property:
 the content in between the opening
 and closing brackets </> will be the {children} prop.
 
+App.js -> displayer
+Component.js -> template
 
+Class components can have this.props.xxx

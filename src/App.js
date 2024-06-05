@@ -5,7 +5,7 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         <Greet number="1" name="ray">
           <p>This is children props</p>
         </Greet>
@@ -13,7 +13,7 @@ function App() {
           <button>button</button>
         </Greet>
         <Greet number="3" name="andy"/>
-      </header>
+        <Welcome number="2" name="nate"/>
     </div>
   );
 }
