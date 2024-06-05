@@ -1,0 +1,7 @@
+passing some variables into the component
+
+const Greet = props => {
+    ...
+}
+
+
