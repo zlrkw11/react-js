@@ -7,7 +7,8 @@ import React from "react";
 // named export (MUST use this name)
 export const Greet = (props) => {
   console.log(props);
-  return <h1>Hello ZL</h1>;
+  return <h1>Hello {props.name}</h1>;
 };
+
 // ES6 function syntax
 // export default Greet
