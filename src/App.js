@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Greet number="1" name="ray"/>
+        <Greet number="1" name="ray">
+          <p>This is children props</p>
+        </Greet>
         <Greet number="2" name="nate"/>
         <Greet number="3" name="andy"/>
       </header>
