@@ -8,13 +8,15 @@ class Counter extends Component {
     };
   }
 
-  
+  increment() {
+    this.setState({ count: this.state.count + 1 });
+  }
 
   render() {
     return (
       <div>
         <div>count - {this.state.count}</div>
-        <button onClick={()=> increment()}>Increment</button>
+        <button onClick={() => this.increment()}>Increment</button>
       </div>
     );
   }

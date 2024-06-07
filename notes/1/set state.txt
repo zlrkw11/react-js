@@ -1,0 +1,11 @@
+if we set the state directly without using setState,
+the counter will change and increment, but the UI won't render.
+
+MUST use setState at all times as long as there is a state change.
+increment() {
+    this.setState({ count: this.state.count + 1 });
+}
+
+the new object passing in would be this.state.count++ to override the count.
+
+note: this.increment(), always use this.function() inside the component. 
