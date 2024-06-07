@@ -8,10 +8,11 @@ import React from "react";
 export const Greet = (props) => {
   console.log(props);
   return (
-    <div> 
-    <h1>Hello {props.name} </h1>
-        {props.children}
-    </div>)
+    <div>
+      <h1>Hello {props.name} </h1>
+      {props.children}
+    </div>
+  );
 };
 
 // ES6 function syntax
