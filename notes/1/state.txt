@@ -16,3 +16,6 @@ class x extends y {
     }
 }
 
+this.setState({
+    attribute: some code
+}) // pass this into the onClick event handling function
