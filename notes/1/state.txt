@@ -6,3 +6,9 @@
 
 making a button that change text displayed when clicked
 
+class x extends y {
+
+    constructor(){
+        super() // call has to be made with base class constructor
+    }
+}

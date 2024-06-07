@@ -1,7 +1,15 @@
 import React, { Component } from "react";
 class Message extends Component {
+  constructor() {
+    super();
+    this.state = {
+        message: 'Welcomne visitor'
+    };    // state object
+
+  }
+
   render() {
-    return <h1>Welcome visitor</h1>;
+    return <h1>{this.state.message}</h1>;
   }
 }
 
