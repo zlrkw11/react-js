@@ -1,0 +1,6 @@
+1. managed within the component
+2. variables declared in the function body
+3. states can be changed
+4. useState Hook - Functional Components
+   this.state - Class Components
+
