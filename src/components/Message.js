@@ -3,13 +3,17 @@ class Message extends Component {
   constructor() {
     super();
     this.state = {
-        message: 'Welcomne visitor'
-    };    // state object
-
+      message: "Welcomne visitor",
+    }; // state object
   }
 
   render() {
-    return <h1>{this.state.message}</h1>;
+    return (
+      <div>
+        <h1>{this.state.message}</h1>
+        <button>Subscribe</button>
+      </div>
+    );
   }
 }
 
