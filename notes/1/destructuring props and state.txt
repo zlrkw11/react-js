@@ -1,0 +1,4 @@
+method 1:
+destructure in the function parameter itself
+props is replaced by name and children as they are selected / taken out
+export const component = ({name, children}) => { ... {name} {children} }

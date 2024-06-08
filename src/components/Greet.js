@@ -5,12 +5,11 @@ import React from "react";
 //}
 
 // named export (MUST use this name)
-export const Greet = (props) => {
-  console.log(props);
+export const Greet = ({name, children}) => {
   return (
     <div>
-      <h1>Hello {props.name} </h1>
-      {props.children}
+      <h1>Hello {name} </h1>
+      {children}
     </div>
   );
 };
