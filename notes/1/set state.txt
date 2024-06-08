@@ -9,3 +9,5 @@ increment() {
 the new object passing in would be this.state.count++ to override the count.
 
 note: this.increment(), always use this.function() inside the component. 
+
+callback function*
