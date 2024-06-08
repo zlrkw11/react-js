@@ -9,10 +9,16 @@ class Counter extends Component {
   }
 
   increment() {
+    /* 
     this.setState({ count: this.state.count + 1 }, () => {
       console.log("Callback value", this.state.count);
     });
     console.log(this.state.count); // this runs before setState
+    */
+    this.setState((prevState) => ({
+      count: prevState.count + 1
+    }))
+    console.log(this.state.count)
   }
 
   incrementFive() {

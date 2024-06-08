@@ -10,4 +10,9 @@ the new object passing in would be this.state.count++ to override the count.
 
 note: this.increment(), always use this.function() inside the component. 
 
-callback function*
+callback function* (records on time as setState operates)
+
+> passing a function as a state, not an object
+> (prevState)=>({}), for prevState values as arguments 
+
+
