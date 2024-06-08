@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 class Welcome extends Component {
   render() {
+    const { name, number } = this.props;
+    // const {state1, state2} = this.state;
     return (
       <h4>
-        Welcome {this.props.name}, number {this.props.number}
+        Welcome {name}, number {number}
       </h4>
     );
   }

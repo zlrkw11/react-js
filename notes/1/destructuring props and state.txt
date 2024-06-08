@@ -1,4 +1,19 @@
+props
 method 1:
 destructure in the function parameter itself
 props is replaced by name and children as they are selected / taken out
 export const component = ({name, children}) => { ... {name} {children} }
+
+method 2:
+in class components, destructure in render()
+class component extends Component {
+  render() {
+    const { x, y } = this.props;
+  }
+}
+
+after destructuring, we can use the destructured names instead of
+props.x or this.props.x.
+
+states:
+const {state1, state2} = this.state;
