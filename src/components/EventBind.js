@@ -8,7 +8,7 @@ export class EventBind extends Component {
       message: "hello",
     };
 
-    this.clickHandler = this.clickHandler.bind(this);
+    // this.clickHandler = this.clickHandler.bind(this);
   }
   /*
   clickHandler() {

@@ -1,6 +1,6 @@
 the THIS keyword is undefined in an event handler.
 so, bind it to the event handler
-method 1.
+method 1. (least ideal)
 <button onClick={this.clickHandler.bind(this)}>
 generates a new render of event handler on every click
 
@@ -17,3 +17,10 @@ this.clickHandler = this.clickHandler.bind(this);
 
 method 4.
 arrow function as a class property
+  clickHandler = () => {
+    this.setState({
+      message: "goodbye!",
+    });
+  };
+
+which then we can just pass into onClick straight away.
