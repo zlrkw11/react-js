@@ -15,7 +15,7 @@ bind in constructor
 //this line inside constructor
 this.clickHandler = this.clickHandler.bind(this);
 
-method 4.
+method 4. (modern way)
 arrow function as a class property
   clickHandler = () => {
     this.setState({
