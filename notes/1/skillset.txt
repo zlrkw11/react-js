@@ -12,7 +12,7 @@ component code is inside a js /jsx file.
     contains render method
     using lib
 
-1. RCE tab out for quick component
+1. rce tab out for quick component
 2. rconst tab out for constructor 
 3. rfce tab out for function 
 4. 

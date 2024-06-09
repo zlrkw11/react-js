@@ -6,4 +6,6 @@ onClick = {clickHandler} for example
 
 IMPORTANT:
 pass the function as event handler (without parenthesis), not a function call like clickHandler().
+gets worse in class components. 
 
+for class components, it is just this.clickHandler. Similar usage.
