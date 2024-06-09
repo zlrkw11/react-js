@@ -3,3 +3,7 @@ like: onClick()
 
 passing a function as an event handler
 onClick = {clickHandler} for example
+
+IMPORTANT:
+pass the function as event handler (without parenthesis), not a function call like clickHandler().
+
