@@ -10,8 +10,10 @@ calling arrow function in the event handler's body
 <button onClick={() => this.clickHandler()}>
 -calling the handler function, returning a value
 
-method 3.
+method 3. (most ideal)
 bind in constructor
 //this line inside constructor
 this.clickHandler = this.clickHandler.bind(this);
 
+method 4.
+arrow function as a class property

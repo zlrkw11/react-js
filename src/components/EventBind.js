@@ -10,13 +10,20 @@ export class EventBind extends Component {
 
     this.clickHandler = this.clickHandler.bind(this);
   }
-
+  /*
   clickHandler() {
     console.log(this);
     this.setState({
       message: "goodbye!",
     });
   }
+  */
+
+  clickHandler = () => {
+    this.setState({
+      message: "goodbye!",
+    });
+  };
 
   render() {
     return (
