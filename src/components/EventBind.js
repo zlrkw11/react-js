@@ -7,17 +7,22 @@ export class EventBind extends Component {
     this.state = {
       message: "hello",
     };
+
+    this.clickHandler = this.clickHandler.bind(this);
   }
 
   clickHandler() {
     console.log(this);
+    this.setState({
+      message: "goodbye!",
+    });
   }
 
   render() {
     return (
       <div>
         <div>{this.state.message}</div>
-        <button onClick={() => this.clickHandler()}>click</button>
+        <button onClick={this.clickHandler}>click</button>
       </div>
     );
   }
