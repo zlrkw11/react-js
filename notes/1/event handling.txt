@@ -1,0 +1,5 @@
+React events are named with camelCase
+like: onClick()
+
+passing a function as an event handler
+onClick = {clickHandler} for example
