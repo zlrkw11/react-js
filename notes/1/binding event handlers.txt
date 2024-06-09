@@ -1,8 +1,11 @@
 the THIS keyword is undefined in an event handler.
-
+so, bind it to the event handler
 method 1.
 <button onClick={this.clickHandler.bind(this)}>
 generates a new render of event handler on every click
 
 method 2. 
 arrow function
+calling arrow function in the event handler's body
+<button onClick={() => this.clickHandler()}>
+
