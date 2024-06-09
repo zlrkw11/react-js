@@ -10,9 +10,7 @@ import EventBind from "./components/EventBind";
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
-      <EventBind/>
+      <EventBind />
     </div>
   );
 }
