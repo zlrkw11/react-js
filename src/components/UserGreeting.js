@@ -10,7 +10,14 @@ class UserGreeting extends Component {
   }
 
   render() {
+    let message;
     if (this.state.isLoggedIn) {
+      message = <div>Welcome ZLRKW11</div>;
+    } else {
+      message = <div>Welcome Guest</div>;
+    }
+    return <div>{message}</div>;
+    /*     if (this.state.isLoggedIn) {
       return <div>Welcome ZLRKW11</div>;
     } else {
     }
@@ -19,7 +26,7 @@ class UserGreeting extends Component {
         <div>Welcome Guest</div>
       </div>
     );
+  } */
   }
 }
-
 export default UserGreeting;

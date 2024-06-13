@@ -15,4 +15,5 @@ component code is inside a js /jsx file.
 1. rce tab out for quick component
 2. rconst tab out for constructor 
 3. rfce tab out for function 
-4. 
+4. shift + alt + A - block comment
+5. 
