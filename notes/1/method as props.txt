@@ -24,3 +24,4 @@ the received paramter is represented as childName
 > using prop to access parent's function
 > using arrow function if parameters are involved
 > define methods in parent
+
