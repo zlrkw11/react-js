@@ -1,3 +1,26 @@
 ES6 template literal:
 ${}
 
+we want the child component - button to call the parent component's method 
+when clicked.
+
+<ChildComponent greeHandler={this.greetParent} />
+parent:
+attribute created, pass in the function. 
+
+child:
+<button onClick={props.greeHandler}>Greet Parent</button>
+
+Passing a parameter from child -> parent:
+child (passing a string):
+onClick={() => props.greeHandler('child')}
+
+parent (receives the string, make use of it):
+ greetParent(childName) {
+    alert(`Hello ${this.state.parentName} from ${childName}`);
+  }
+the received paramter is represented as childName
+
+> using prop to access parent's function
+> using arrow function if parameters are involved
+> define methods in parent
