@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import ChildComponent from "./ChildComponent";
 class ParentComponent extends Component {
   constructor(props) {
     super(props);
@@ -7,10 +7,20 @@ class ParentComponent extends Component {
     this.state = {
       parentName: "Parent",
     };
+
+    this.greetParent = this.greetParent.bind(this); // bind
+  }
+
+  greetParent() {
+    alert(`Hello ${this.state.parentName}`);
   }
 
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <ChildComponent />
+      </div>
+    );
   }
 }
 
