@@ -10,7 +10,7 @@ class UserGreeting extends Component {
   }
 
   render() {
-    /*     let message;
+    /*     let message; 
     if (this.state.isLoggedIn) {
       message = <div>Welcome ZLRKW11</div>;
     } else {
