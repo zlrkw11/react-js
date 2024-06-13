@@ -27,12 +27,15 @@ class UserGreeting extends Component {
         <div>Welcome Guest</div>
       </div>
     );
-  } */
+  } 
     return this.state.isLoggedIn ? (
       <div>Welcome ZLRKW11</div>
     ) : (
       <div>Welcome Guest</div>
     );
+  }
+    */
+    return this.state.isLoggedIn && <div>Welcome ZLRKW11</div>;
   }
 }
 export default UserGreeting;
