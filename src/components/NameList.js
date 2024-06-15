@@ -4,7 +4,9 @@ function NameList() {
   const names = ["Ray", "Andy", "Nate"];
   return (
     <div>
-      <h2>{names[0]}</h2>
+      {names.map((name) => (
+        <h2>{name}</h2>
+      ))}
     </div>
   );
 }

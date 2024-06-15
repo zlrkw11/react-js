@@ -12,7 +12,7 @@ import NameList from "./components/NameList";
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
     </div>
   );
 }
