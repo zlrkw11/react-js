@@ -8,7 +8,12 @@ function NameList() {
     { id: 2, name: "Andy", age: 20, skill: "Java" },
     { id: 3, name: "Nate", age: 20, skill: "C" },
   ];
-  const nameList = names.map((name, index) => <h2 key={index}>{index}{name}</h2>); // used name as key prop
+  const nameList = names.map((name, index) => (
+    <h2 key={index}>
+      {index}
+      {name}
+    </h2>
+  )); // used name as key prop
   const personList = persons.map((person) => (
     <Person key={person.id} person={person} />
   ));
