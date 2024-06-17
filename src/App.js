@@ -20,6 +20,7 @@ function App() {
     <div className="App">
       <h1 className="error">1 (using css)</h1>
       <h1 className={styles.success}>2 (using module)</h1>
+      <Inline />
     </div>
   );
 }
