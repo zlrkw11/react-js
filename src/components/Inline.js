@@ -6,7 +6,11 @@ const heading = {
 };
 
 function Inline() {
-  return <div></div>;
+  return (
+    <div>
+      <h1 style={heading}></h1>
+    </div>
+  );
 }
 
 export default Inline;
