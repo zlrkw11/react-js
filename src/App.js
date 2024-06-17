@@ -11,11 +11,15 @@ import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
+// normal css and module css
+import "./components/appStyles.css";
+import styles from "./components/appStyles.module.css";
 
 function App() {
   return (
     <div className="App">
-      <Inline />
+      <h1 className="error">1 (using css)</h1>
+      <h1 className={styles.success}>2 (using module)</h1>
     </div>
   );
 }
